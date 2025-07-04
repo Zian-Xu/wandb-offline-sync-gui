@@ -3,13 +3,13 @@ A simple and intuitive GUI app for syncing offline Wandb logs. No need to write 
 
 ## 说明
 
-此代码生成 exe 文件，使用图形化界面便于上传 wandb 日志。
+此代码生成 exe 文件，使用图形化界面便于上传 wandb 日志。代码能力有限，有问题欢迎交流。
 
 ## 打包问题记录（新）
 
 >  由于旧的打包之后还是存在 bug，以此新记录为准。
 
-由于 `wandb.exe` 不是一个可以独立运行的程序，而是需要 python 解释器相关环境，因此想要在客户机上运行这一程序是比较麻烦的。为了能够做到开箱即用，需要将 wandb.exe 换成一个真正可执行的 exe 封装。
+由于 `wandb.exe` 不是一个可以独立运行的程序，而是需要 python 解释器相关环境，因此想要在客户机上运行这一程序是比较麻烦的。为了能够做到开箱即用，需要将 `wandb.exe` 换成一个真正可执行的 exe 封装。
 
 于是将借助 wandb.exe 运行的命令修改为借助 CLI 运行：
 
