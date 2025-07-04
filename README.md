@@ -1,6 +1,8 @@
 # wandb-offline-sync-gui
 A simple and intuitive GUI app for syncing offline Wandb logs. No need to write code or remember CLI commands — just select a folder and click upload.
 
+👉 You can try the released test version [here](https://github.com/Zian-Xu/wandb-offline-sync-gui/releases/tag/v0.1.0).
+
 ## 说明
 
 此代码生成 exe 文件，使用图形化界面便于上传 wandb 日志。代码能力有限，有问题欢迎交流。
